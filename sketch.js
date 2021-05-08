@@ -33,9 +33,9 @@ function setup() {
 
 	pixelDensity(1);
 
-	if(navigator.userAgent.match(/Android/i)){
-		platform = "mobile";
-	}
+// 	if(navigator.userAgent.match(/Android/i)){
+// 		platform = "mobile";
+// 	}
 
 	player=createSprite(200,200);
 	player.debug = false ;
